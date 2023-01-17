@@ -13,8 +13,19 @@ import {
   Container,
 } from '@mui/material';
 import CameraIcon from '@mui/icons-material/PhotoCamera';
+import { makeStyles } from '@mui/material/styles'
+
+const useStyles = makeStyles( (theme) => ({
+container: {
+  backgroundColor: theme.palette.background.paper,
+  padding: theme.spacing(8,0,6)
+}
+}));
+
+
 
 const App = () => {
+  const classes = useStyles();
   return (
     <>
       <CssBaseline />
@@ -25,7 +36,7 @@ const App = () => {
         </Toolbar>
       </AppBar>
       <main>
-        <div>
+        <div className={classes.container}>
           <Container maxWidth="sm">
             <Typography
               variant="h2"
