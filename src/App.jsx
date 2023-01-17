@@ -33,6 +33,16 @@ const App = () => {
               gutterBottom>
               Photo Album
             </Typography>
+            <Typography
+              variant="h5"
+              align="center"
+              color="textSecondary"
+              paragraph>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              qui pariatur ipsa aliquid nemo, hic rem impedit alias minima a
+              veritatis et doloribus atque placeat, sunt facere? Alias, earum
+              necessitatibus.
+            </Typography>
           </Container>
         </div>
       </main>
